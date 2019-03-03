@@ -8,24 +8,27 @@ Examples of things to include are the following.
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Hackathon Category :
+Best enhancement to the Sitecore Admin (XP) UI for Content Editors & Marketers
 
 What is the purpose of your module? What problem does it solve and how does it do that?
+The main purpose of the module is to help the content editors and marketers to add the Salesforce based personalization to any content item without developement team's effort.
 
 ## Pre-requisites
 
 Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- Salesforce pixel to be installed on the page which helps to inject the cookie for the module to work.
 
 ## Installation
+Use the Sitecore Installation wizard to install the [package](#https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/sc.package/Salesforce%20Personalization-v1.0.zip)
 
-Provide detailed instructions on how to install the module, and include screenshots where necessary.
+## Dataflow
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
+Salesforce exposes a cookie in the browser on a user visit. Salesforce data is always read directly from the cookie by the Sitecore(but doesn’t do a round trip it would read from the http request) and will not store it.
+![Data Flow](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/1.png)
+
+
 3. Profit
 
 ## Configuration
