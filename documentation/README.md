@@ -21,7 +21,7 @@ Does your module rely on other Sitecore modules or frameworks?
 - Salesforce pixel to be installed on the page which helps to inject the cookie for the module to work.
 
 ## Installation
-Use the Sitecore Installation wizard to install the [package](#https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/sc.package/Salesforce%20Personalization-v1.0.zip)
+Use the Sitecore Installation wizard to install the [package](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/sc.package/Salesforce%20Personalization-v1.0.zip)
 
 ## Dataflow
 
@@ -49,4 +49,4 @@ Salesforce exposes a cookie in the browser on a user visit. Salesforce data is a
 ## Video
 
 Please check the Video demo in the following link
-[Demo Video](#https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/demovideo.zip)
+[Demo Video](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/demovideo.zip)
