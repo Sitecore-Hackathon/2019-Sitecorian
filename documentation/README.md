@@ -28,7 +28,7 @@ Use the Sitecore Installation wizard to install the [package](#https://github.co
 Salesforce exposes a cookie in the browser on a user visit. Salesforce data is always read directly from the cookie by the Sitecore(but doesn’t do a round trip it would read from the http request) and will not store it.
 ![Data Flow](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/1.png)
 
-## Step-by-step guide
+## Usage
 
 1. Begin editing the page you intend to personalize
 
@@ -39,10 +39,10 @@ Salesforce exposes a cookie in the browser on a user visit. Salesforce data is a
 ![Personalize component](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/4.png)
 
 4. Select edit and add the Salesforce rule. Find out the cookie key provided by salesforce, key in the key and value 
-![Personalize component](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/5.png)
+![Salesforce rules](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/5.png)
 
 5. Support for String operations
-![Personalize component](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/6.png)
+![String operations](https://github.com/Sitecore-Hackathon/2019-Sitecorian/blob/master/documentation/images/6.png)
 
 6. Compare the krux_visits or krux_segments much more. Blend the salesforce data and personalize in the Sitecore
 
